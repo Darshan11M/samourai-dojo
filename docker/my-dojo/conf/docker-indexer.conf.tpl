@@ -6,7 +6,7 @@
 # Set this option to 'off' for using an indexer hosted outside of Docker
 # or when using a different data source (local bitcoind, OXT)
 # Value: on | off
-INDEXER_INSTALL=on
+INDEXER_INSTALL=off
 
 # IP address of the local indexer used by Dojo
 # Set value to 172.28.1.6 if INDEXER_INSTALL is set to 'on'
