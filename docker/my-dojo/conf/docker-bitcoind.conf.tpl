@@ -16,7 +16,7 @@ BITCOIND_MAX_CONNECTIONS=16
 
 # Mempool maximum size in MB
 # Type: integer
-BITCOIND_MAX_MEMPOOL=1024
+BITCOIND_MAX_MEMPOOL=2048
 
 # Db cache size in MB
 # Type: integer
@@ -49,7 +49,7 @@ BITCOIND_MIN_RELAY_TX_FEE=0.00001
 # Generate a new onion address for bitcoind when Dojo is launched
 # Activation of this option is recommended for improved privacy.
 # Values: on | off
-BITCOIND_EPHEMERAL_HS=on
+BITCOIND_EPHEMERAL_HS=off
 
 
 #
@@ -61,7 +61,7 @@ BITCOIND_EPHEMERAL_HS=on
 # Warning: Do not expose your RPC API to internet!
 # See BITCOIND_RPC_EXTERNAL_IP
 # Value: on | off
-BITCOIND_RPC_EXTERNAL=off
+BITCOIND_RPC_EXTERNAL=on
 
 # IP address used to expose the RPC API to external apps
 # This parameter is inactive if BITCOIND_RPC_EXTERNAL isn't set to 'on'
